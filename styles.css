@@ -1,0 +1,49 @@
+* {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: Arial, sans-serif;
+    }
+    
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        background-color: #0606e3;
+    }
+    
+    .container {
+        background: rgb(222, 4, 4);
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 4px 6px rgba(4, 232, 23, 0.908);
+        text-align: center;
+    }
+    
+    .controls, .options {
+        margin-bottom: 10px;
+    }
+    
+    button {
+        background-color: #28a745;
+        color: white;
+        border: none;
+        padding: 10px;
+        cursor: pointer;
+        border-radius: 5px;
+        margin: 5px;
+    }
+    
+    button:hover {
+        background-color: #218838;
+    }
+    
+    input[type="text"] {
+        width: 100%;
+        padding: 10px;
+        margin-top: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+    }
+    
